@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 import urlParser from "../common/urlParser";
 import api from "../services/api";
@@ -39,8 +40,14 @@ const CoursesDetail: React.FC<Props> = ({ history, location }) => {
   async function handleSubmit(e: any) {
     e.preventDefault();
 
-    await api.put(`/courses/${id}`, course);
-    history.push("/");
+    try {
+      await api.put(`/courses/${id}`, course);
+
+      toast.success('Curso atualizado com sucesso');
+      history.push("/");
+    } catch (error) {
+      toast.error('Erro ao atualizar curso');
+    }
   }
 
   function handleAddUser() {
