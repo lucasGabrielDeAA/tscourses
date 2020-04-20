@@ -5,7 +5,14 @@
       "name": "Curso de testes 1",
       "duration": "12",
       "date_start": "Mon Apr 20 2020 11:08:43 GMT-0300 (Horário Padrão de Brasília)",
-      "users": []
+      "users": [
+        {
+          "id": "949",
+          "age": "89",
+          "email": "email@email.com",
+          "name": "oi"
+        }
+      ]
     },
     {
       "id": "2",
