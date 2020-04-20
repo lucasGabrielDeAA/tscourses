@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Curso de testes 1",
+      "duration": "12",
+      "date_start": "Mon Apr 20 2020 11:08:43 GMT-0300 (Horário Padrão de Brasília)",
+      "users": []
+    },
+    {
+      "id": "2",
+      "name": "Curso de testes 2020",
+      "duration": 6,
+      "date_start": "Mon Apr 20 2020 11:08:43 GMT-0300 (Horário Padrão de Brasília)",
+      "users": []
+    },
+    {
+      "id": "3",
+      "name": "Curso de testes 3",
+      "duration": 6,
+      "date_start": "Mon Apr 20 2020 11:08:43 GMT-0300 (Horário Padrão de Brasília)",
+      "users": []
+    },
+    {
+      "id": "4",
+      "name": "Curso de testes 4",
+      "duration": 6,
+      "date_start": "Mon Apr 20 2020 11:08:43 GMT-0300 (Horário Padrão de Brasília)",
+      "users": []
+    },
+    {
+      "id": "5",
+      "name": "Curso de testes 5",
+      "duration": 6,
+      "date_start": "Mon Apr 20 2020 11:08:43 GMT-0300 (Horário Padrão de Brasília)",
+      "users": []
+    }
+  ]
+}
